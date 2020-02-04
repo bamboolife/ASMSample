@@ -21,6 +21,20 @@ ASM 是一个 Java 字节码操控框架。它能被用来动态生成类或者�
 
 ## 3.ASM是怎样修改class文件的？
 开始这个问题之前我们要先了解一些知识
-- 字节码
+- 字节码(下面的文章讲解的不错)
+  - [Java ByteCode](https://www.jianshu.com/p/92a75a18cbc1)<br>
+  - [Java字节码指令](https://www.cnblogs.com/faunjoe88/p/8126464.html)<br>
+  - [大话+图说：Java字节码指令——只为让你懂](https://segmentfault.com/a/1190000008606277)<br>
+  - [从 HelloWorld 看 Java 字节码文件结构](https://cloud.tencent.com/developer/article/1096582)
 
-[Java ByteCode](https://www.jianshu.com/p/92a75a18cbc1)
+- 访问者模式
+
+> 一个称为元素（Element），另一个称为访问者（Visitor）。元素有一个accept方法，该方法接收访问者作为参数；accept()方法调用访问者的visit()方法，并且将元素自身作为参数传递给访问者。由元素本身决定是否访问
+
+在ASM中元素（被访问者）ClassReader、MethodNode等等，访问者接口包含ClassVisitor、AnnotationVisitor、FieldVisitor、MethodVisitor
+
+
+
+
+
+

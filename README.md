@@ -16,3 +16,10 @@ ASM 是一个 Java 字节码操控框架。它能被用来动态生成类或者�
 - aspectJ:AspectJ是一个面向切面的框架，它扩展了Java语言。AspectJ定义了AOP语法，所以它有一个专门的[编译器]用来生成遵守Java字节编码规范的Class文件。适合在某一个方法前后插入部分代码，处理某些逻辑：比如方法运行时间、插入动态权限检查等。问题会造成很多的冗余代码，产生很多代理类。简单来说就是在生成class时动态织入代码
 
 - Javassit: Javassist是一个开源的分析、编辑和创建Java字节码的类库。是由东京工业大学的数学和计算机科学系的 Shigeru Chiba(千叶滋)所创建的。简单来说就是源码级别的api去修改字节码
+
+![image](images/pic1.png)
+
+## 3.ASM是怎样修改class文件的？
+开始这个问题之前我们要先了解一些知识
+- 字节码
+[Java ByteCode](https://www.jianshu.com/p/92a75a18cbc1)

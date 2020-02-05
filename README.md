@@ -25,7 +25,7 @@ ASM 是一个 Java 字节码操控框架。它能被用来动态生成类或者�
   - [Java ByteCode](https://www.jianshu.com/p/92a75a18cbc1)<br>
   - [Java字节码指令](https://www.cnblogs.com/faunjoe88/p/8126464.html)<br>
   - [大话+图说：Java字节码指令——只为让你懂](https://segmentfault.com/a/1190000008606277)<br>
-  - [从 HelloWorld 看 Java 字节码文件结构](https://cloud.tencent.com/developer/article/1096582)
+  - [从 HelloWorld 看 Java 字节码文件结构](https://cloud.tencent.com/developer/article/1096582)<br>
   - [Java字节码增强探秘](https://mp.weixin.qq.com/s/CH9D-E7fxuu462Q2S3t0AA)
 
 - 访问者模式
@@ -45,11 +45,12 @@ ASM 是一个 Java 字节码操控框架。它能被用来动态生成类或者�
 
 总结：ASM直接修改class文件确实效率很高，但因直接操作字节码，需要有字节码知识，不适合直接上手，相比较来Javassit源码级修改class文件更方便些。
 
-[javassist使用全解析](https://www.cnblogs.com/rickiyang/p/11336268.html)
-[秒懂Java动态编程（Javassist研究）](https://blog.csdn.net/ShuSheng0007/article/details/81269295)
-[javassist基础以及如何使用javassist实现AOP](https://blog.csdn.net/zhaocuit/article/details/83901410)
-[https://www.jianshu.com/p/423b35e6dc5d](https://www.jianshu.com/p/423b35e6dc5d)
+[javassist使用全解析](https://www.cnblogs.com/rickiyang/p/11336268.html)<br>
+[秒懂Java动态编程（Javassist研究）](https://blog.csdn.net/ShuSheng0007/article/details/81269295)<br>
+[javassist基础以及如何使用javassist实现AOP](https://blog.csdn.net/zhaocuit/article/details/83901410)<br>
+[Javassist官方文档翻译](https://www.jianshu.com/p/423b35e6dc5d)<br>
 [Javassist中文技术文档](https://www.cnblogs.com/scy251147/p/11100961.html)
+
 ## 需要使用的工具
 
 - 1.查看字节码工具
